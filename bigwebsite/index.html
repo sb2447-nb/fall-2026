@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Giant Sheet of Paper</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- The giant sheet of paper: 2400px x 2400px, so visitors must scroll both ways -->
+  <div id="paper">
+
+    <!-- Top-left: where you start -->
+    <div class="note start-note">
+      <h1>The Giant Sheet of Paper</h1>
+      <p>You are only seeing a <span id="tiny-span">tiny</span> piece of this page.</p>
+      <p>Scroll down and to the right. Look for things hiding in the margins.</p>
+    </div>
+
+    <!-- Secret 1: far to the right of the start -->
+    <div class="note secret" id="secret-one">
+      <p>Psst. You scrolled right. Keep going. Something is waiting at the bottom.</p>
+    </div>
+
+    <!-- The image, placed in the middle of the page -->
+    <div class="frame" id="image-frame">
+      <img src="images/lost-island.png" alt="A small island with a tree floating in a pale blue sky">
+      <p class="caption">Lost island. Found at last.</p>
+    </div>
+
+    <!-- Secret 2: hidden near the middle, only appears on hover -->
+    <div class="note secret hover-secret">
+      <p>You found a hover secret! The page is 2400px by 2400px.</p>
+    </div>
+
+    <!-- Secret 3: far bottom-left -->
+    <div class="note secret" id="secret-bottom-left">
+      <p>The bottom-left corner. Nobody ever comes here. Welcome.</p>
+    </div>
+
+    <!-- A tiny, faint message in the middle of nowhere -->
+    <p class="whisper">if you can read this, you have very good eyes</p>
+
+    <!-- The final secret at the far bottom-right corner -->
+    <div class="note secret treasure" id="treasure">
+      <h2>You found the end of the paper!</h2>
+      <p>Congratulations, explorer. The <span class="gold">treasure</span> was the scrolling all along.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
