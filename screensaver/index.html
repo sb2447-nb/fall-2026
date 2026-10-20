@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Afterglow – a CSS screensaver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- The whole page is the screensaver. tabindex="0" lets a click or tap
+       give it :focus, so it also works on touch screens (no hover there). -->
+  <main class="screen" tabindex="0" aria-label="Afterglow screensaver. Hover or click to wake it.">
+
+    <div class="ring"></div>
+
+    <div class="orbs">
+      <div class="orb"><i></i></div>
+      <div class="orb"><i></i></div>
+      <div class="orb"><i></i></div>
+      <div class="orb"><i></i></div>
+      <div class="orb"><i></i></div>
+    </div>
+
+    <p class="hint">Afterglow<span>Hover or click to wake. Press and hold to brighten.</span></p>
+
+  </main>
+
+</body>
+</html>
